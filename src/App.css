@@ -6,5 +6,8 @@
   text-align: center;
 }
 .left-slider{
-  background: #fff;
+  color: #fff !important;
+}
+.drop-content{
+  height: 45%;
 }

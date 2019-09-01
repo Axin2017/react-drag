@@ -1,6 +1,5 @@
 import React from 'react';
 import './ComponentsBox.css'
-import { Droppable } from 'react-beautiful-dnd';
 import { Draggable } from 'react-beautiful-dnd';
 
 class ComponentsBox extends React.Component {
@@ -18,7 +17,7 @@ class ComponentsBox extends React.Component {
                 <h4>My draggable</h4>
               </div>
             )}
-          </Draggable>;
+          </Draggable>
         </div>
     );
   }
